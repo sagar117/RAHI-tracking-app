@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="FIND BUSES"
+        android:layout_height="wrap_content"
+        android:id="@+id/tracepath"
+        android:onClick="onaclick"
+        android:layout_marginBottom="210dp"
+        android:background="#4764e6"
+        android:layout_width="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:src="@mipmap/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/surfaceView"
+        android:layout_marginBottom="72dp"
+        android:layout_above="@+id/tracepath"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

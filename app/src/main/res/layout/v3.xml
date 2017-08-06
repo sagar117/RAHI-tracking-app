@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:text="General 1-c"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/mainh"
+        android:gravity="center"        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/sub1"
+        android:layout_below="@+id/mainh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/mainh"
+        android:background="@color/colorPrimary"
+        android:layout_toRightOf="@+id/sub1"
+        android:layout_toEndOf="@+id/sub1"
+        android:id="@+id/sub2"
+        android:textAlignment="center"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="BUS STOP"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/sub1"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="ARR"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub1"
+        android:layout_toEndOf="@+id/textView18"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/textView19"
+        android:layout_toRightOf="@+id/textView18"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub2"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/textView19"
+        android:layout_toEndOf="@+id/textView19"
+        android:id="@+id/textView21"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+
+    <TextView
+        android:text="ARR"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub1"
+        android:layout_toEndOf="@+id/textView18"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:id="@+id/textView51"
+        android:layout_toRightOf="@+id/textView18"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="ARR"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub1"
+        android:layout_toEndOf="@+id/textView18"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/textView53"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/textView18"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="ARR"
+        android:layout_width="90dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub1"
+        android:gravity="center"
+        android:layout_toEndOf="@+id/textView18"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/textView52"
+        android:layout_toRightOf="@+id/textView18"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default" />
+
+
+
+    <TextView
+        android:text="HALT"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@color/common_plus_signin_btn_text_dark_default"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_below="@+id/sub2"
+        android:layout_toRightOf="@+id/textView52" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView18">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop53"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lanka" />
+
+                <TextView
+                    android:id="@+id/t53"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="17:45" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="15min" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop54"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="MMV" />
+                <TextView
+                    android:id="@+id/t54"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:01" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content" android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop55"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Malviya Bhavan" />
+
+                <TextView
+                    android:id="@+id/t55"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:03" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop56"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:text="LD Chauraha" />
+                <TextView
+                    android:id="@+id/t56"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:04" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop57"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Ruiya-Birla Chauraha" />
+                <TextView
+                    android:id="@+id/t57"
+                    android:layout_width="90dp"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:layout_height="wrap_content"
+                    android:text="18:05" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content" android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop58"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Birla-Brocha Chauraha" />
+                <TextView
+                    android:id="@+id/t58"
+                    android:layout_width="90dp" android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:layout_height="wrap_content"
+                    android:text="18:06" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/textView60"
+                    android:text="12sec" />
+            </TableRow>
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop59"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Brocha-Dalmiya Chauraha" />
+                <TextView
+                    android:id="@+id/t59"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:07" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop60"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Brocha-Dalmiya Chauraha" />
+                <TextView
+                    android:id="@+id/t60"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:08" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop61"
+                    android:layout_width="150dp"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:layout_height="wrap_content"
+                    android:text="Health Center" />
+                <TextView
+                    android:id="@+id/t61"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:09" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop62"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Shopping Center" />
+
+                <TextView
+                    android:id="@+id/t62"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:11" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop63"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="CV Raman" />
+
+                <TextView
+                    android:id="@+id/t63"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:12" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop64"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Rajputana Chauraha" />
+                <TextView
+                    android:id="@+id/t64"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:14" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop65"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="IIT Chauraha" />
+                <TextView
+                    android:id="@+id/t65"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:15" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop66"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="VT" />
+                <TextView
+                    android:id="@+id/t66"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:15" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop67"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Botany Chauraha" />
+
+                <TextView
+                    android:id="@+id/t67"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:31" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop68"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Commerce Faculty" />
+
+                <TextView
+                    android:id="@+id/t68"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:32" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop69"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Maitri Jalpan Grih" />
+                <TextView
+                    android:id="@+id/t69"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:34" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop70"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Hindi Bhavan" />
+                <TextView
+                    android:id="@+id/t70"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:35" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/stop71"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="Chhatra Parishad" />
+                <TextView
+                    android:id="@+id/t71"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="18:37" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/stop72"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Visual Arts" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/t72"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="18:38" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="12sec" />
+            </TableRow>
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/stop73"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="SVDV" />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/t73"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="18:39" />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="12sec" />
+            </TableRow>
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/stop74"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Law Faculty" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/t74"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="18:40" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="12sec" />
+            </TableRow>
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:id="@+id/stop75"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nursing College" />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/t75"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="18:43" />
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="12sec" />
+            </TableRow>
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/stop76"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="MMV" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+                    android:id="@+id/t76"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="18:44" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="12sec" />
+            </TableRow>
+
+            <TableRow
+                android:background="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:id="@+id/stop77"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lanka" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:id="@+id/t77"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="18:45" />
+                <TextView
+                    android:gravity="center"
+                    android:textColor="?android:attr/colorBackground"
+
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="15min" />
+            </TableRow>
+
+
+
+
+
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

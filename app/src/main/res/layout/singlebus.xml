@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="SCHEDULE OF BUS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@color/material_deep_teal_500"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/busA"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stnA"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        android:text="8.00"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        tools:text="8.00" />
+
+    <TextView
+        android:id="@+id/bus1"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stn1"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        android:text="8.02"
+        tools:text="8.02"
+        android:textSize="20dp"
+        android:textColor="#b30000"/>
+
+    <TextView
+        android:id="@+id/bus2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stn2"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.03"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.03" />
+    <TextView
+        android:id="@+id/bus3"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stn3"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.04"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.04" />
+
+    <TextView
+        android:id="@+id/bus4"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP4" />
+
+    <TextView
+        android:id="@+id/stn4"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.05"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.05" />
+    <TextView
+        android:id="@+id/bus5"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP5" />
+
+    <TextView
+        android:id="@+id/stn5"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.07"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.07" />
+    <TextView
+        android:id="@+id/bus6"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP6" />
+
+    <TextView
+        android:id="@+id/stn6"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.09"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.09" />
+    <TextView
+        android:id="@+id/bus7"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP7" />
+
+    <TextView
+        android:id="@+id/stn7"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.10"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.10" />
+    <TextView
+        android:id="@+id/bus8"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP8" />
+
+    <TextView
+        android:id="@+id/stn8"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.12"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.12" />
+    <TextView
+        android:id="@+id/bus9"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP9" />
+
+    <TextView
+        android:id="@+id/stn9"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.15"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.15" />
+    <TextView
+        android:id="@+id/bus10"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP11" />
+
+    <TextView
+        android:id="@+id/stn10"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.15"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.15" />
+    <TextView
+        android:id="@+id/bus11"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP11" />
+
+    <TextView
+        android:id="@+id/stn11"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.16"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.16" />
+
+    <TextView
+        android:id="@+id/bus12"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP12" />
+
+    <TextView
+        android:id="@+id/stn12"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.17"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.17" />
+    <TextView
+        android:id="@+id/bus13"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP13" />
+
+    <TextView
+        android:id="@+id/stn13"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        android:text="8.18"
+        tools:text="8.18"
+        android:textSize="20dp"
+        android:textColor="#b30000"/>
+    <TextView
+        android:id="@+id/bus14"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP14" />
+
+    <TextView
+        android:id="@+id/stn14"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.19"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.19" />
+    <TextView
+        android:id="@+id/bus15"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP15" />
+
+    <TextView
+        android:id="@+id/stn15"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.20"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.20" />
+    <TextView
+        android:id="@+id/bus16"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP16" />
+
+    <TextView
+        android:id="@+id/stn16"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.21"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.21" />
+    <TextView
+        android:id="@+id/bus17"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP17" />
+
+    <TextView
+        android:id="@+id/stn17"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.23"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.23" />
+    <TextView
+        android:id="@+id/bus18"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP18" />
+
+    <TextView
+        android:id="@+id/stn18"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.25"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.25" />
+    <TextView
+        android:id="@+id/bus19"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textStyle="bold"
+        tools:text="STOP19" />
+
+    <TextView
+        android:id="@+id/stn19"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textStyle="bold"
+        tools:text="8.30"
+        android:textSize="20dp"
+        android:textColor="#b30000"
+        android:text="8.30" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

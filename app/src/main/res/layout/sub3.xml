@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/v3a"
+        android:layout_width="match_parent"
+
+        android:layout_height="100dp">
+
+        <TextView
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView61"
+            android:layout_alignParentTop="true"
+            android:textSize="80dp"
+            android:textColor="@android:color/holo_red_light" />
+
+        <TextView
+            android:text="Lanka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView61"
+            android:layout_toEndOf="@+id/textView61"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView62"
+            android:textSize="20dp" />
+
+        <TextView
+            android:text="8:01AM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView61"
+            android:layout_alignLeft="@+id/textView62"
+            android:layout_alignStart="@+id/textView62"
+            android:layout_marginBottom="14dp"
+            android:id="@+id/textView65" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView65"
+            android:layout_alignLeft="@+id/textView63"
+            android:layout_alignStart="@+id/textView63"
+            android:id="@+id/textView66" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView66"
+            android:layout_alignLeft="@+id/textView64"
+            android:layout_alignStart="@+id/textView64"
+            android:id="@+id/textView67"
+            android:text="8:47AM" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button82"
+            android:background="@android:color/holo_green_light"
+            android:text="Go Live"
+            android:layout_alignTop="@+id/textView64"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="Lanka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView64"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/textView63"
+            android:layout_toLeftOf="@+id/button82"
+            android:layout_toStartOf="@+id/button82"
+            android:layout_marginRight="31dp"
+            android:layout_marginEnd="31dp" />
+
+        <TextView
+            android:text="Ladies-2a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:id="@+id/textView63"
+            android:layout_alignTop="@+id/textView62"
+            android:layout_toRightOf="@+id/textView62"
+            android:layout_toEndOf="@+id/textView62" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/v3b"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView51"
+            android:layout_alignParentTop="true"
+            android:textSize="80dp"
+            android:textColor="@android:color/holo_red_light" />
+
+        <TextView
+            android:text="Lanka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView51"
+            android:layout_toEndOf="@+id/textView51"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView52"
+            android:textSize="20dp" />
+
+        <TextView
+            android:text="Ladies-2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView52"
+            android:layout_toEndOf="@+id/textView52"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:id="@+id/textView53"
+            android:layout_alignTop="@+id/textView52" />
+
+        <TextView
+            android:text="8:15AM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView51"
+            android:layout_alignLeft="@+id/textView52"
+            android:layout_alignStart="@+id/textView52"
+            android:layout_marginBottom="14dp"
+            android:id="@+id/textView55" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView55"
+            android:layout_alignLeft="@+id/textView53"
+            android:layout_alignStart="@+id/textView53"
+            android:id="@+id/textView56" />
+
+        <TextView
+            android:text="9:17AM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView56"
+            android:layout_alignLeft="@+id/textView54"
+            android:layout_alignStart="@+id/textView54"
+            android:id="@+id/textView57" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/sec2"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignTop="@+id/textView54"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="Go Live" />
+
+        <TextView
+            android:text="Lanka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/textView54"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/textView53"
+            android:layout_toRightOf="@+id/textView53"
+            android:layout_toEndOf="@+id/textView53" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/v3c"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView41"
+            android:layout_alignParentTop="true"
+            android:textSize="80dp"
+            android:textColor="@android:color/holo_red_light" />
+
+        <TextView
+            android:text="Lanka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView41"
+            android:layout_toEndOf="@+id/textView41"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView42"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView45"
+            android:layout_alignLeft="@+id/textView43"
+            android:layout_alignStart="@+id/textView43"
+            android:id="@+id/textView46" />
+
+        <TextView
+            android:text="9:32AM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView46"
+            android:layout_alignLeft="@+id/textView44"
+            android:layout_alignStart="@+id/textView44"
+            android:id="@+id/textView47" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/thir2"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignTop="@+id/textView44"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="Go Live" />
+
+        <TextView
+            android:text="8:30AM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView45"
+            android:layout_alignBaseline="@+id/textView41"
+            android:layout_alignBottom="@+id/textView41"
+            android:layout_alignLeft="@+id/textView42"
+            android:layout_alignStart="@+id/textView42" />
+
+        <TextView
+            android:text="Lanka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView44"
+            android:textSize="20dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_alignTop="@+id/textView43"
+            android:layout_toLeftOf="@+id/thir2"
+            android:layout_toStartOf="@+id/thir2" />
+
+        <TextView
+            android:text="Ladies-2c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView43"
+            android:layout_alignTop="@+id/textView42"
+            android:layout_toLeftOf="@+id/textView44"
+            android:layout_toStartOf="@+id/textView44"
+            android:layout_marginRight="27dp"
+            android:layout_marginEnd="27dp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
